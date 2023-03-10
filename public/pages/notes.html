@@ -17,13 +17,25 @@
   </head>
 
   <body>
-    <nav class="bg-primary p-4">
-      <h1>Note Taker</h1>
+    <nav class="navbar bg-primary p-5">
+      <a href="../index.html" class="fs-1 mt-0 text-white">Note Taker</a>
+      <div class="icons">
+        <i class="fa-solid fa-floppy-disk fs-3 text-white mx-2"></i>
+        <i class="fa-solid fa-square-plus fs-3 text-white mx-2"></i>
+      </div>
     </nav>
-    <div class="card">
-      <h2 class="">{ Note Taker }</h2>
-      <p class="">Take notes with Express.JS</p>
-      <button class="bg-secondary">Get Started</button>
+    <div class="container-fluid border border-4 border-warning">
+      <div class="row border border-danger">
+        <div class="col-4 list-container border border-primary">
+          <div class="card border-3 rounded-0">
+            <ul class="list-group border border-2 border-dark rounded-0"></ul>
+          </div>
+        </div>
+        <div class="col-8">
+          <input class="note-title" placeholder="Note Title" maxlength="28" type="text" /><br>
+          <textarea class="note-textarea" placeholder="Note Text"></textarea>
+        </div>
+      </div>
     </div>
 
     <!-- popper js -->
