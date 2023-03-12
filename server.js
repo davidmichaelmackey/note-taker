@@ -1,42 +1,27 @@
-const express = require('express');
-const path = require('path');
-const {clog} = require('./middleware/clog');
-const api = require('./routes/index.js');
+// Import required modules
+const express = require("express");
+const path = require("path");
 
-const PORT = process.env.PORT || 3001;
-
+// Create an instance of Express
 const app = express();
 
-// Import custom middleware, "cLog"
-app.use(clog);
+// Routes
+const indexRouter = require('./routes/indexRouter.js');
+const notesRouter = require('./routes/notesRouter.js');
 
-// Middleware for parsing JSON and urlencoded form data
+// Set up middleware for parsing incoming requests
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.urlencoded({extended: true}));
-app.use('/api', api);
 
-app.use(express.static('public'));
+// Serve static files from the public directory
+app.use(express.static(path.join(__dirname, './public/')));
 
-// GET Route for homepage
-app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
-);
+// Define routes
+app.use('/', indexRouter);
+app.use('/notes', notesRouter);
 
-// GET Route for notes page
-app.get('./notes', (req, res) => {
-  res.sendFile(path.join(__dirname, '/public/pages/notes.html'));
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
 });
-
-// GET Route for feedback page
-app.get('/feedback', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/pages/feedback.html'))
-);
-
-// Wildcard route to direct users to a 404 page
-app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, 'public/pages/404.html'))
-);
-
-app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
-);
