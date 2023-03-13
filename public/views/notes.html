@@ -18,7 +18,28 @@
 
   <body>
 
-    <nav class="navbar bg-primary p-5">
+    <nav class="navbar bg-info">
+      <a class="navbar-brand text-light p-3" href="/">Note Taker </a>
+      <div class="icons">
+        <i class="fas fa-save text-light save-note"></i>
+        <i class="fas fa-plus text-light new-note"></i>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 list-container">
+          <div class="card">
+            <ul class="list-group"></ul>
+          </div>
+        </div>
+        <div class="col-8">
+          <input class="note-title" placeholder="Note Title" maxlength="28" type="text" />
+          <textarea class="note-textarea" placeholder="Note Text"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <!-- <nav class="navbar bg-primary p-5">
       <a href="./index.html" class="fs-1 mt-0 text-white">Note Taker</a>
       <div class="icons">
         <i class="save-note fa-solid fa-floppy-disk fs-3 text-white mx-2"></i>
@@ -39,7 +60,7 @@
         </div>
       </div>
     </div>
-    <div class="type"></div>
+    <div class="type"></div> -->
 
     <!-- popper js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
