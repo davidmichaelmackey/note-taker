@@ -15,14 +15,19 @@
 
 ## Table of Contents
 
+- [Links](#links)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 - [Contribute](#contribute)
-- [Tests](#tests)
 - [Questions](#questions)
+
+## Links
+
+- [GitHub README Deployment](https://davidmichaelmackey.github.io/note-taker/)
+- [Heroku Deployment](https://evening-stream-81130.herokuapp.com/)
 
 ## Description
 
