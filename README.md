@@ -69,10 +69,6 @@ Follow these commands to run the command-line application:
 
 [Contributor Covenant](https://www.contributor-covenant.org/)
 
-## Tests
-
-n/a
-
 ## Questions
 
 Have Questions?
