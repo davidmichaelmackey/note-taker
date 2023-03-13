@@ -56,7 +56,7 @@ Follow these commands to run the command-line application:
 <img src="https://img.shields.io/badge/-JS-F6DD4A?style=for-the-badge"  alt="JS" />
 <img src="https://img.shields.io/badge/-NodeJS-7DBA58?style=for-the-badge"  alt="NodeJS" />
 <img src="https://img.shields.io/badge/-NPM-BA261A?style=for-the-badge"  alt="NPM" />
-<img src="https://img.shields.io/badge/-Express-0B0B45?style=for-the-badge"  alt="Express" />
+<img src="https://img.shields.io/badge/-Express-000000?style=for-the-badge"  alt="Express" />
 </p>
 
 ## License
