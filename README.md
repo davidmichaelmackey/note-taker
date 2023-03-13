@@ -1,5 +1,7 @@
 # { Note Taker }
 
+📝
+
 ## Badges
 
 <p align="center">
