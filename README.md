@@ -20,6 +20,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Resources](#resources)
 - [License](#license)
 - [Contribute](#contribute)
 - [Questions](#questions)
@@ -53,6 +54,21 @@ Follow these commands to run the command-line application:
 :email: [Email](mailto:davidmackey@hey.com)<br>
 :octocat: [GitHub](https://github.com/davidmichaelmackey/)<br>
 :briefcase: [Linkedin](https://linkedin.com/in/davidmichaelmackey/)<br>
+
+## Resources
+[Server setup and sendFile](https://expressjs.com/en/starter/hello-world.html)<br>
+[API vs. HTML routes](https://expressjs.com/en/guide/routing.html#response-methods)<br>
+[req.query and params](https://expressjs.com/en/guide/routing.html#route-parameters)<br>
+[GET with Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)<br>
+[Middleware for static assets](https://expressjs.com/en/starter/static-files.html)<br>
+[Insomnia](https://docs.insomnia.rest/insomnia/get-started)<br>
+[POST requests and routes](https://expressjs.com/en/starter/basic-routing.html)<br>
+[Middleware for body parsing](https://expressjs.com/en/api.html#req.body)<br>
+[POST with Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)<br>
+[Data persistence using JSON](https://nodejs.org/api/fs.html#fs_file_system)<br>
+[Modular routing](https://expressjs.com/en/guide/routing.html#express-router)<br>
+[Custom middleware](https://expressjs.com/en/guide/writing-middleware.html)<br>
+[Heroku deployment](https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true)<br>
 
 ## Toolset
 
