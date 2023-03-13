@@ -32,7 +32,7 @@
 
 ## Description
 
-This is an application using Express.js and persistent storage that will allow users to take notes via a web interface. It uses POST and GET and DELETE routes to add and retrieve notes from persistent storage. The application features a sleek interface and demonstrates Express.js and routing. This app was also deployed to Heroku using the Heroku CLI.
+This is an application using Express.js and persistent storage that will allow users to take notes via a web interface. It uses POST, GET, and DELETE routes to add and retrieve notes from persistent storage. The application features a sleek interface and demonstrates Express.js and routing. This app was also deployed to Heroku using the Heroku CLI.
 
 ## Installation
 
